@@ -28,4 +28,4 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t github-actions-demo -f app/Dockerfile
+          docker build -t github-actions-demo -f app/Dockerfile . 
